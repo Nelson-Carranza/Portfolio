@@ -26,8 +26,8 @@ ul {
 }
 
 .box {
-  max-width: 1240px;
-  margin: 0 auto;
+    max-width: 1240px;
+      margin: 0 0 20px 0;
 }
 
 /*Header*/

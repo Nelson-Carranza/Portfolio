@@ -9,7 +9,7 @@ body {
 	background: linear-gradient(to right, #cfdef3, #e0eafc);
 	margin: 0;
 	padding: 0;
-	
+
 }
 
 body::-webkit-scrollbar {
@@ -24,7 +24,7 @@ body::-webkit-scrollbar-thumb {
 
 .box {
 	max-width: 1240px;
-	margin: 0 auto;
+	margin: 0 0 50px 0;
 }
 
 /*header */
@@ -106,7 +106,7 @@ body::-webkit-scrollbar-thumb {
 	background-color: #004e92;
 	color: #e0eafc;
 	border: 1px solid;
-	padding: 10px 160px ;
+	padding: 10px 160px;
 	border-radius: 20px;
 	font-size: 20px;
 	margin-left: 20px;
@@ -115,13 +115,13 @@ body::-webkit-scrollbar-thumb {
 
 .sec-contact a {
 	background-color: #004e92;
-		color: #e0eafc;
-		border: 1px solid;
-		padding: 10px 60px;
-		border-radius: 20px;
-		font-size: 20px;
-		margin-left: 20px;
-		margin-top: -10px;
+	color: #e0eafc;
+	border: 1px solid;
+	padding: 10px 60px;
+	border-radius: 20px;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: -10px;
 }
 
 
@@ -147,7 +147,7 @@ body::-webkit-scrollbar-thumb {
 	border-radius: 20px;
 }
 
-.form-name input   {
+.form-name input {
 	border: solid 1px #000046;
 	border-radius: 20px;
 	padding: 10px;
@@ -160,7 +160,7 @@ body::-webkit-scrollbar-thumb {
 	color: #e0eafc;
 	padding: 10px;
 	border-radius: 20px;
-	
+
 }
 
 .form-email input {
@@ -222,7 +222,7 @@ body::-webkit-scrollbar-thumb {
 	border-radius: 20px;
 	padding: 10px;
 	color: #e0eafc;
-	background-color:#004e92;
+	background-color: #004e92;
 }
 
 

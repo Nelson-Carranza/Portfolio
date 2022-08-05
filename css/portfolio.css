@@ -23,7 +23,7 @@ body::-webkit-scrollbar-thumb {
 
 .box {
   max-width: 1240px;
-  margin: 0 auto;
+  margin: 0 0 50px 0;
 }
 
 /*header */
@@ -241,7 +241,7 @@ body::-webkit-scrollbar-thumb {
 
 .tripletes_project a {
   font-size: 50px;
-  color:white;
+  color: white;
   font-weight: bold;
 }
 
