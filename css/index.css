@@ -9,7 +9,7 @@ body {
   background: linear-gradient(to left, #004e92, #000428);
   margin: 0;
   padding: 0;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 3.0);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 3);
 }
 
 body::-webkit-scrollbar {
@@ -18,11 +18,9 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, .2);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
 }
-
-
 
 h1 {
   font-weight: bold;
@@ -54,25 +52,26 @@ footer {
 
 .navigation {
   align-items: center;
-  padding: 30px 30px 30px;
+  align-items: center;
+  border-radius: 30px;
+  border: solid 1px white;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-left: 100px;
   margin-top: 50px;
-  border: solid 1px white;
-  border-radius: 30px;
+  padding: 30px 30px 30px;
 }
 
 /*nav-a-edit and navigation span together*/
 .nav-a-edit a {
+  border: transparent solid 1px;
   color: white;
   font-size: 60px;
   font-weight: bold;
-  border: transparent solid 1px;
 }
 
 .navigation span {
+  
   color: aqua;
   font-size: 60px;
   font-weight: bold;
@@ -147,11 +146,11 @@ footer {
   width: 690px;
 }
 
-.space{
+.space {
   padding-left: 8px;
 }
 
-/*SKILLS TECCC*/
+/*SKILLS TECh*/
 
 .block-skills {
   color: white;
@@ -164,7 +163,6 @@ footer {
 
 .Block-last-projects {
   color: white;
-
   margin-top: 50px;
 }
 
@@ -214,7 +212,6 @@ footer {
   background-color: #013766;
 }
 
-
 .decorate-css img {
   padding-left: 50px;
 }
@@ -233,7 +230,6 @@ footer {
 .decorate-js img {
   padding-left: 10px;
 }
-
 
 .decorate-figma {
   border-radius: 30px;
@@ -256,7 +252,6 @@ footer {
   margin-left: 100px;
   padding: 50px;
 }
-
 
 .Block-last-projects h2 {
   font-size: 50px;
@@ -298,7 +293,6 @@ footer {
   padding: 30px;
 }
 
-
 .move-biccas {
   align-items: center;
   border-radius: 30px;
@@ -310,7 +304,6 @@ footer {
   margin-top: 20px;
   width: 900px;
   font-weight: bold;
-
 }
 
 .move-biccas a {
@@ -329,7 +322,6 @@ footer {
   margin-top: 20px;
   padding: 30px;
 }
-
 
 /*Footer*/
 
@@ -351,7 +343,7 @@ footer {
 }
 
 .block-foo img:hover {
-  transform: scale(1.0);
+  transform: scale(1);
   padding: 10px;
 }
 
@@ -372,7 +364,6 @@ footer {
   padding: 20px;
   width: 310px;
 }
-
 
 .block-contact-foo {
   padding: 10px;
